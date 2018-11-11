@@ -1,0 +1,101 @@
+@media (min-width: 425px) {
+
+  /************** Section 1 ***************/
+  /************** Section 1 ***************/
+
+  .homeImage{
+    background-image: url("img/chengeto.png");
+    height: 55rem;
+  }
+
+
+  .heroContent-small{
+      display: none;
+    }
+    .heroContent-large{
+      display: block !important;
+    }
+
+    .heroTitle{
+      font-size: 4rem;
+      font-weight: normal;
+      text-align: left;
+      color: #fff;
+      margin: 8rem 0 0 4rem;
+    }
+    .heroSubTitle{
+      font-size: 2rem;
+      text-align: left;
+      color: #fff;
+      padding: 0;
+      margin: 0 35% 3rem 4rem;
+    }
+    .heroDonate{
+      padding: 1.2rem 5rem;
+      border:  2px solid #fff;
+      border-radius: 4px;
+      color: rgba(37, 52, 91, 1);
+      font-size: 2rem;
+      background-color: #fff;
+      text-decoration: none;
+      margin: 0 0 0 4rem;
+    }
+    .heroDonate:hover{
+      color: #fff;
+      background-color: rgba(37, 52, 91, .8);
+      border: none;
+    }
+    .donateButton{
+      text-align: center;
+    }
+
+    /************** Section 2 ***************/
+    /************** Section 2 ***************/
+
+    .newsImg,
+    .newsText{
+      width: 32rem;
+    }
+
+
+    /* ********* Section 3: Philosophy ********** */
+    /* ********* Section 3: Philosophy ********** */
+    .washImage{
+       height: 50vh;
+     }
+
+   /* ********* Section Four: How It Works ********* */
+   /* ********* Section Four: How It Works ********* */
+
+   .section4{
+     /* margin-top: 5rem; */
+   }
+   .howItWorksHeader{
+     font-size: 2.4rem;
+   }
+   .howItWorksLogo{
+     height: 6rem;
+   }
+   .howItWorksTitle{
+     font-size: 2.2rem;
+   }
+   .howItWorksBio{
+     font-size: 1.5rem;
+   }
+
+
+   /* ************* Section Five: Engage*************  */
+   /* ************* Section Five: Engage*************  */
+
+   /* ********* Section Six: Donate ********* */
+   /* ********* Section Six: Donate ********* */
+
+   .getInvolvedCard{
+     width: 325px;
+   }
+
+
+   /* ********* Section Seven: Social Media ********* */
+   /* ********* Section Seven: Social Media ********* */
+
+}

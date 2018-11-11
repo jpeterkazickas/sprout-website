@@ -1,0 +1,178 @@
+@media (min-width: 1024px) {
+
+
+  .heroContent-large{
+    margin-top: 15rem;
+    margin-left: 9rem;
+  }
+  .navBar{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5fr;
+  }
+  #navDonate{
+    padding: 1.2rem 4rem;
+  }
+
+
+  /************** Section 2 ***************/
+  /************** Section 2 ***************/
+
+
+  .newsContentWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .newsHeader{
+    text-align: left;
+  }
+  .newsLink {
+    text-align: right;
+  }
+  .philosophySubtitle{
+    font-size: 1.8rem;
+  }
+
+  .newsImg,
+  .newsText{
+    width: 32rem;
+  }
+
+  /* ********* Section 3: Philosophy ********** */
+  /* ********* Section 3: Philosophy ********** */
+
+
+  /* ********* Section Four: How It Works ********* */
+  /* ********* Section Four: How It Works ********* */
+
+  .curriculumCard{
+    margin-left: 10rem;
+  }
+.step{
+  width: 500px;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
+
+/* ************* Section Five: Engage*************  */
+/* ************* Section Five: Engage*************  */
+
+
+
+.engageTitle{
+  padding-left: 3rem;
+}
+.engageBio{
+  padding: 1rem 15rem 1.5rem 3rem;
+}
+.learnMore2{
+  padding: 1% 0;
+  border-radius: 4px;
+  font-size: 1.5vw;
+  margin-left: 55%;
+  margin-right: 18rem;
+}
+
+/* ********* Section Six: Donate ********* */
+/* ********* Section Six: Donate ********* */
+
+
+.getInvolvedGrid{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+}
+.getInvolvedGrid{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.getInvolvedCard{
+  width: 300px;
+}
+
+
+/* ********* Section Seven: Social Media ********* */
+/* ********* Section Seven: Social Media ********* */
+.postFour{
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+.postFive{
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+footer{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+}
+
+
+
+
+
+
+
+/************** XL Break Point ***************/
+/************** XL Break Point ***************/
+
+@media (min-width: 1300px) {
+  .newsHeader{
+    text-align: left;
+    margin-left: 7.5rem;
+  }
+  .newsLink {
+    margin-right: 4rem;
+  }
+
+
+  #slider {
+   height: 35vw;
+ }
+
+ #slider label {
+   /* margin: auto; */
+   width: 35%;
+   height: 80%; top: -100px;
+ }
+
+ .cardTitle{
+   font-size: 2vw;
+ }
+ .cardIcon{
+   height: 8rem;
+   margin-top: 5%;
+ }
+ .cardBio{
+   font-size: 1.4vw;
+ }
+
+
+
+ .section4{
+   margin-right: 7%;
+   margin-left: 7%;
+ }
+ .step{
+   width: 600px;
+   margin-left: 5rem;
+   grid-column-gap: 1rem;
+ }
+
+ .engageBio{
+   padding: 1rem 24rem 1.5rem 3rem;
+ }
+ .learnMore2{
+   margin-right: 24rem;
+   margin-left: 54%;
+ }
+
+
+ .getInvolvedGrid{
+   padding-left: 5%;
+   padding-right: 5%;
+ }
+
+}

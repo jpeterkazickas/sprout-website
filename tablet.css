@@ -1,0 +1,217 @@
+@media (min-width: 768px) {
+
+  .homeImage{
+    background-image: url("img/chengeto.png");
+    height: 90vh;
+  }
+
+  .heroContent-large{
+    margin-top: 12rem;
+    margin-left: 6rem;
+  }
+  .heroTitle{
+    font-size: 6rem;
+  }
+  .heroSubTitle{
+    width: 40%;
+    font-size: 2.4rem;
+  }
+
+  /************** Section 2 ***************/
+  /************** Section 2 ***************/
+
+
+  /* ********* Section 3: Philosophy ********** */
+  /* ********* Section 3: Philosophy ********** */
+
+  #slider {
+   height: 40vw;
+ }
+
+ #slider label {
+   /* margin: auto; */
+   width: 40%;
+   height: 80%;
+ }
+
+ .cardTitle{
+   font-size: 2.5vw;
+ }
+ .cardIcon{
+   height: 6rem;
+   margin-top: 5%;
+ }
+ .cardBio{
+   font-size: 1.6vw;
+ }
+
+ /* ********* Section Four: How It Works ********* */
+ /* ********* Section Four: How It Works ********* */
+
+ .section4{
+   grid-template-columns: 1fr 1fr;
+   background-image: url("img/focus-desktop.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 600px;
+   margin-right: 5%;
+   margin-left: 5%;
+ }
+ .curriculumCard{
+   background-color: #fff;
+   width: 30rem;
+   margin-left: 5rem;
+ }
+ .step{
+   padding-right: 0;
+   grid-column-gap: 3rem;
+   margin: 2.5rem 0 0 2rem;
+ }
+ .howItWorksTitle{
+   font-size: 2.1rem;
+ }
+ .howItWorksBio{
+   font-size: 1.5rem;
+ }
+
+
+ /* ************* Section Five: Engage*************  */
+ /* ************* Section Five: Engage*************  */
+
+.section5{
+  background-color: #FFF4F4;
+}
+ .section5Image{
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color: #FFF4F4;
+   height: 500px;
+   background-size: contain;
+ }
+ .engageTitle{
+   padding: 10rem 0 0 2rem;
+ }
+ .getInvolved{
+   font-size: 1.8rem;
+ }
+
+ /* ********* Section Six: Donate ********* */
+ /* ********* Section Six: Donate ********* */
+
+ .getInvolvedGrid{
+   padding-left: 4%;
+   padding-right: 4%;
+ }
+ .getInvolvedCard{
+   width: 300px;
+ }
+
+ /* ********* Section Seven: Social Media ********* */
+ /* ********* Section Seven: Social Media ********* */
+
+ hr{
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+ .socialMediaHeader{
+   display: flex;
+   padding-left: 4%;
+   padding-top: 5%;
+   align-items: baseline;
+ }
+ .socialIcon{
+   font-size: 20px;
+   color: rgba(37, 52, 91, 1);
+   padding-left: 2%;
+ }
+.socialPad{
+  padding-left: 2%;
+}
+ .socialIcon::before{
+   display: inline-block;
+ }
+ .followFooter{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgba(37, 52, 91, 1);
+  display: block;
+}
+.instagramPosts{
+  height: 30vh;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ .instagramPosts{
+  height: 30vh;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.postOne{
+  height: 200px;
+  width: 200px;
+  display: block;
+}
+.postTwo{
+  height: 200px;
+  width: 200px;
+  display: block;
+}
+.postThree{
+  height: 200px;
+  width: 200px;
+  display: block;
+}
+.postFour{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+.postFive{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+
+.subscribeForm{
+  background-color: #FFF4F4;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.subscribe{
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgba(37, 52, 91, 1);
+}
+.submitEmail{
+  outline: none;
+  border-radius: 4px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 1.6rem;
+  border: 1px solid #979797;
+}
+.formGrid{
+  display: grid;
+  grid-template-columns: 3fr 3fr 2fr;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.getEmails{
+    border-radius: 4px;
+    font-size: 1.6rem;
+    padding: 10px;
+    background-color: #2F79FF;
+    color: #fff;
+}
+#email{
+  border-top: 1px solid #979797;
+}
+
+
+
+}

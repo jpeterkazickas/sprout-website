@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font  */
+ html,
+body {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* main color:
+  color: rgba(37, 52, 91, 1);
+*/

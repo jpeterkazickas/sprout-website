@@ -1,0 +1,251 @@
+@media (min-width: 600px) {
+
+  /* NAVIGATION */
+
+      .navLogo{
+        height: 4rem;
+        justify-self: center;
+        align-self: center;
+      }
+      .navBar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+      .navItem{
+        display: block;
+        margin: 1rem 1rem;
+        font-size: 2.2rem;
+        justify-self: center;
+      }
+      #navicon{
+        display: none;
+      }
+      #navDonate{
+        justify-self: end;
+        margin-right: 5rem;
+        padding: .6rem 2rem;
+        border:  2px solid #fff;
+        border-radius: 4px;
+      }
+      #navDonate:hover{
+        background-color: #EFBAFC;
+        border-color: #EFBAFC;
+        color: #fff;
+      }
+
+
+      /************** Section 2 ***************/
+      /************** Section 2 ***************/
+      .section2{
+        margin-top: 10rem;
+      }
+
+
+      /* ********* Section 3: Philosophy ********** */
+      /* ********* Section 3: Philosophy ********** */
+
+      .washImage{
+         background-image: none;
+         height: auto;
+         margin-bottom: 2%;
+       }
+       .section3{
+         background-image: url("img/Washington wall.jpg");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100vh;
+         margin-top: 10rem;
+       }
+      .sliderContainer{
+        margin-left: 40%;
+        top: 0;
+      }
+
+      .philosophyTitle{
+        font-size: 2.4rem;
+      }
+      .philosophySubtitle{
+        font-size: 1.6rem;
+        margin-top: 2%;
+      }
+      #slider {
+       height: 55vw;
+       position: relative;
+       perspective: 1000px;
+       transform-style: preserve-3d;
+     }
+
+     #slider label {
+       /* margin: auto; */
+       width: 55%;
+       height: 80%;
+       border-radius: 4px;
+       position: absolute;
+       left: 0; right: 0; top: -30px;
+       cursor: pointer;
+       transition: transform 0.4s ease;
+
+     }
+
+     /* End Slider Section */
+
+    .card{
+      text-align: center;
+      border: 2px solid rgba(37, 52, 91, 1);
+      background-color: #fff;
+    }
+    .cardTitle{
+      font-size: 3vw;
+      font-weight: 600;
+      padding-top: 5%;
+      /* font-weight: bold; */
+      color: rgba(37, 52, 91, 1);
+      margin-top: 5%;
+    }
+    .cardIcon{
+      height: 6rem;
+      margin-top: 5%;
+    }
+    .cardBio{
+      font-size: 2.2vw;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-top: 2%;
+    }
+
+    /* ********* Section Four: How It Works ********* */
+    /* ********* Section Four: How It Works ********* */
+
+    .section4{
+      margin-top: 10rem;
+    }
+
+    /* ************* Section Five: Engage*************  */
+    /* ************* Section Five: Engage*************  */
+
+    .section5{
+      margin-top: 10rem;
+    }
+    .engageHeader{
+      display: block;
+      font-size: 2.2rem;
+      color: rgba(37, 52, 91, 1);
+      background-color: #FFF4F4;
+      font-weight: 700;
+      padding: 2% 0 1% 2%;
+    }
+    .section5Image{
+      background-image: url("img/threeBoys-desktop.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      /* background-size: 100%; */
+      height: 400px;
+      background-color: #FFF4F4;
+      background-size: contain;
+    }
+    .engageTitle{
+      color: rgba(37, 52, 91, 1);
+      margin-left: 52%;
+      padding-top: 5rem;
+    }
+    .engageBio{
+      color: rgba(37, 52, 91, 1);
+      margin-left: 52%;
+    }
+    .learnMore2{
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 1% 2%;
+      border-radius: 4px;
+      background-color: transparent;
+      color: rgba(37, 52, 91, 1);
+      border: 2px solid rgba(37, 52, 91, 1);
+      font-size: 1.6rem;
+      margin-left: 50%;
+      margin-right: 5rem;
+    }
+    .learnMore2:hover{
+      cursor: pointer;
+      background-color: rgba(37, 52, 91, 1);
+      border-color: rgba(37, 52, 91, 1);
+      color: #fff;
+    }
+    .learnMore{
+      display: none;
+    }
+    .getInvolved{
+      font-size: 1.6rem;
+      font-weight: 700;
+      padding: 1rem 15%;
+    }
+
+    /* ********* Section Six: Donate ********* */
+    /* ********* Section Six: Donate ********* */
+
+    .getInvolvedGrid{
+      width: 100%;
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 50px;
+      justify-items: center;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+    .getInvolvedCard:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .getInvolvedGrid{
+      padding-left: 1%;
+      padding-right: 1%;
+    }
+    .getInvolvedCard{
+      width: 290px;
+    }
+
+
+    /* ********* Section Seven: Social Media ********* */
+    /* ********* Section Seven: Social Media ********* */
+
+    footer{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 650px) {
+  .section4{
+    grid-template-columns: 1fr 1fr;
+    background-image: url("img/focus-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .howItWorksContainer{
+    background-image: none;
+    margin-right: 0;
+  }
+  .curriculumCard{
+    background-color: #fff;
+    width: 25rem;
+    margin-left: 5rem;
+  }
+  .step{
+    padding-right: 0;
+    grid-column-gap: 2rem;
+    margin: 1.5rem 0 0 0;
+  }
+  .howItWorksTitle{
+    font-size: 1.8rem;
+  }
+  .howItWorksBio{
+    font-size: 1.5rem;
+  }
+
+
+
+}

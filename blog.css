@@ -1,0 +1,142 @@
+/* Smallest Screen */
+body{
+  background-color: #f9f9f9;
+}
+.blogBar{
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(37, 52, 91, .9);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+}
+.blogBack{
+  font-size: 1.2rem;
+  color: #fff;
+  margin: .75rem;
+  justify-self: start;
+  text-decoration: none;
+}
+.blogBack:hover{
+  color: #EFBAFC;
+}
+.blogDonate{
+  font-size: 1.2rem;
+  color: #fff;
+  padding: .2rem 1rem;
+  margin: .75rem;
+  justify-self: end;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+.blogDonate:hover{
+  background-color: #EFBAFC;
+  border-color: #EFBAFC;
+  color: #fff;
+}
+.blogPic{
+  width: 100%;
+}
+.blogIconGrid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.blogIcon{
+  height: 60px;
+  justify-self: center;
+  position: relative;
+  top: -40px;
+}
+.blogPageDescription{
+  padding: 0 12% 5% 12%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.blogInstagram{
+  text-decoration: none;
+  color: black;
+}
+.blogPost{
+  border: 2px solid #FFF4F4;
+  border-radius: 5px;
+  margin: 0 auto 2%;
+  background-color: #fff;
+  max-width: 700px;
+}
+.blogHeaderDetails{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.4rem;
+}
+.blogPostTitle{
+  justify-self: start;
+  padding: 1rem;
+  font-weight: 500;
+}
+.blogPostDate{
+  justify-self: end;
+  padding: 1rem;
+  color: gray;
+}
+.blogPostImage{
+  display: grid;
+  justify-self: center;
+}
+.blogPostContent{
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+}
+.blogPostFooter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+.blogAuthor{
+  color: gray;
+}
+.blogFooterIcons{
+  justify-self: end;
+}
+.blogFooterIcon{
+  padding-left: 1rem;
+  color: lightgray;
+}
+.blogFooterIcon:hover{
+  cursor:pointer;
+  color: rgba(37, 52, 91, 1);
+}
+.authorInstagram{
+  text-decoration: none;
+  color: gray;
+}
+.authorInstagram:hover{
+  color: rgba(37, 52, 91, 1);
+}
+
+@media (min-width: 600px) {
+
+  .blogDonate{
+    font-size: 2rem;
+    margin: 1.5rem 5rem;
+  }
+  .blogBack{
+    font-size: 2rem;
+    margin-left: 5rem;
+  }
+  .blogStory{
+    padding: 5%;
+  }
+  .blogPageDescription{
+    padding: 0 30% 5% 30%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .blogIcon{
+    height: 80px;
+    justify-self: center;
+    position: relative;
+    top: -55px;
+  }
+}

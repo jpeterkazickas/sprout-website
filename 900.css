@@ -1,0 +1,93 @@
+@media (min-width: 900px) {
+
+  /************** Section 2 ***************/
+  /************** Section 2 ***************/
+
+  .newsEventsContainer{
+    background-image: url("img/classGroup-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 2rem 1rem;
+  }
+  .newsContentWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .newsImg,
+  .newsText{
+    width: 28rem;
+    margin: -.5rem 0 0 0;
+  }
+  .newsHeader{
+    text-align: left;
+  }
+  .newsBox{
+    margin: 0;
+  }
+  .newsLink {
+    text-align: right;
+  }
+
+
+  /* ********* Section 3: Philosophy ********** */
+  /* ********* Section 3: Philosophy ********** */
+
+  #slider label {
+    top: -70px;
+  }
+
+  /* ********* Section Four: How It Works ********* */
+  /* ********* Section Four: How It Works ********* */
+
+  .howItWorksTitle{
+    font-size: 2.2rem;
+  }
+  .howItWorksBio{
+    font-size: 1.6rem;
+  }
+  .curriculumCard{
+    margin-left: 7rem;
+  }
+
+
+  /* ************* Section Five: Engage*************  */
+  /* ************* Section Five: Engage*************  */
+
+  .engageTitle{
+    padding-left: 3rem;
+  }
+  .engageBio{
+    padding: 1rem 5rem 1.5rem 3rem;
+  }
+  .getInvolved{
+    padding: 1rem 20%;
+  }
+
+  .learnMore2{
+    padding: 1% 1%;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin-left: 55%;
+    margin-right: 10rem;
+  }
+
+  /* ********* Section Six: Donate ********* */
+  /* ********* Section Six: Donate ********* */
+
+  .getInvolvedGrid{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .getInvolvedCard{
+    width: 325px;
+  }
+
+
+  /* ********* Section Seven: Social Media ********* */
+  /* ********* Section Seven: Social Media ********* */
+
+
+
+}
